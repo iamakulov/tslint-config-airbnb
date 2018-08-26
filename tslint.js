@@ -12,7 +12,7 @@ module.exports = {
     'object-literal-shorthand': true, // 3.3, 3.4
     'object-shorthand-properties-first': true, // 3.5
     'object-literal-key-quotes': [true, 'as-needed'], // 3.6
-    'prefer-array-literal': true, // 4.1
+    'prefer-array-literal': [ true, { 'allow-type-parameters': true } ], // 4.1
     quotemark: [
       true,
       'single',
